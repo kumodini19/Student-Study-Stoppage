@@ -1,0 +1,58 @@
+body{
+  line-height: 20px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  
+  background: url(black.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+    }
+
+    h1 {
+        font-size: 100px;
+        font-weight: 600;
+        color: #0b036d;
+        background-clip: text;
+        -webkit-background-clip: text;
+      }
+     
+    input[type=text],[type=password],[type=number]{
+    width: 20%;
+    margin: 8px 0;
+    padding: 7px 10px;
+    display: inline-block;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+    }
+     
+    button{
+    background-color:#057a09;
+    width: 10%;
+    padding: 9px 5px;
+    margin:5px 0;
+    cursor:pointer;
+    border:none;
+    color:#ffffff;
+    margin-left: 80px;
+    font-size: 20px;
+    }
+     
+    button:hover{
+    opacity:0.8;
+    }
+     
+    #fn,#ln,#un,#pwd,#em,#mn,#fm,#cy{
+    font-family:'Lato', sans-serif;
+    color: rgb(241, 241, 7);
+    font-weight: bold;
+    font-size: 40px;
+    }
+     
+    #em{
+    margin-left:30px;
+    }

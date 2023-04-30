@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login and Registration form example</title>
+<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+ 
+<body bgcolor="#E6E6FA">
+ 
+<form action="insert.jsp" method="post" onsubmit="return save()">
+<h1>Registration Form</h1>
+ 
+<label for="r1" id="fn">Name :</label>
+<input type="text" name="fname" id="r1"><br/>
+ 
+<label  for="r3" id="un">Username :</label>
+<input type="text" name="uname" id="r2"><br/>
+ 
+<label  for="r4" id="pwd">Password :</label>
+<input type="password" name="pass" id="r3"><br/>
+ 
+<label  for="r5" id="em">Email :</label>
+<input type="text" name="email" id="r4"><br/>
+ 
+ 
+<button type="submit" value="Submit" id="button">REGISTER</button>
+<a href="login.html">LOGIN</a>
+ 
+</form>
+
+ 
+<script type="text/javascript">
+function save(){
+var user = document.getElementById("r2").value;
+var pwd = document.getElementById("r3").value;
+alert("username "+ user +" password "+ pwd);
+}
+
+function save()
+{let x=document.getElementById("r1").value;
+let y=document.getElementById("r2").value;
+let z=document.getElementById("r3").value;
+let k=document.getElementById("r4").value;
+
+if(x=="" || y=="" || z=="" || k=="")
+{
+    alert("Enter field first")
+    return false
+}
+}
+</script>
+ 
+</body>
+</html>

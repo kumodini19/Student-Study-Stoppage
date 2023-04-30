@@ -1,0 +1,49 @@
+body { 
+    
+        left: 0;
+        line-height: 20px;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 100%;
+        background: url(imgback.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  button{
+    background-image: linear-gradient(to right, #cd23fc 0%, #9f324d  51%, #f51010  100%);
+    border-radius: 15px 15px 15px 15px;
+    width: 20%;
+    padding: 9px 5px;
+    margin:10px 0px 0px 35px;
+    cursor:pointer;
+    border:none;
+    color:#ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    }
+
+    h1 {
+      font-size: 70px;
+      font-weight: 600;
+      font-family: 'Roboto', sans-serif;
+      color: #b5091d;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 0px #40126e,
+                   1px 2px 0px #833bcb,
+                   1px 3px 0px #ec1919,
+                   1px 4px 0px #a5111d,
+                   1px 5px 0px #901c24,
+                   1px 5px 0px #944fd8,
+                   1px 10px 5px rgba(16, 16, 16, 0.5),
+                   1px 15px 10px rgba(16, 16, 16, 0.4),
+                   1px 20px 30px rgba(16, 16, 16, 0.3),
+                   1px 25px 50px rgba(16, 16, 16, 0.2);
+    }
+    
+
+     
